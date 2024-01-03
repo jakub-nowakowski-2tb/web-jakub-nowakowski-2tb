@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formularz.css">
+    <title>Formularz</title>
+</head>
+<body>
+   <p class="p">Formularz</p>
+    <form>
+        <label for="gender">Płeć:</label>
+        <div class="gender-option">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Mężczyzna</label>
+        </div>
+        <div class="gender-option">
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Kobieta</label>
+        </div><br>
+        <label for="wonder">Wybierz jeden z 7 cudów świata, który najbardziej chciałbyś odwiedzić:</label><br>
+        <select id="wonder" name="wonder">
+            <option value="">--Wybierz--</option>
+            <option value="chichen_itza">Piramida Cheopsa</option>
+            <option value="christ_the_redeemer">Cwiszące ogrody Semiramidy</option>
+            <option value="colosseum">Swiątynia Artemidy w Efezie</option>
+            <option value="great_wall_of_china">Posąg Zeusa w Olimpii</option>
+            <option value="machu_picchu">Mauzoleum w Halikarnasie</option>
+            <option value="petra">Kolos Rodyjski</option>
+            <option value="taj_mahal">Latarnia Morkska na Fargos</option>
+        </select>
+        </select><br><br>
+        <label for="name">Napisz co sądzisz o naszej stronie. Chętnie przeczytamy!!!</label><br>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Wyślij">
+        <input type="reset" class="btn" value="Wyczyść">
+    </form>
+    <button type="button">
+        <a href="strona główna.html">Powrót</a>
+    </button>
+</body>
+</html>

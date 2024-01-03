@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(238, 239, 172);
+  overflow-x: hidden;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+.header {
+  background-color: brown;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  margin: 15px;
+}
+
+.info {
+  padding: 20px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  color: brown;
+}
+
+.info1 {
+  font-size: 50px;
+}
+
+li {
+  list-style-type: square;
+  font-size: 20px;
+  color: brown;
+}
+
+@keyframes moveImage {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+#image {
+  position: relative;
+  width: 450px;
+  height: 318px;
+  background-image: url("https://commelinpracownia.pl/public/upload/catalog/product/56/minigallery/thumb_page_1572892115z_cz_ci_promyk_w.png");
+  animation: moveImage 5s linear infinite;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  color: brown;
+}
+
+.text1 {
+  padding-left: 30px;
+  color: brown;
+  font-size: 25px;
+}
+
+.text2 {
+  text-align: center;
+  color: brown;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  h1, .info1, .text1 {
+    font-size: 18px;
+  }
+  .info, p, li {
+    font-size: 14px;
+  }
+  
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+  h1, .info1, .text1 {
+    font-size: 22px;
+  }
+  .info, p, li {
+    font-size: 16px;
+  }
+ 
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+  h1, .info1, .text1 {
+    font-size: 24px;
+  }
+  .info, p, li {
+    font-size: 18px;
+  }
+  
+}

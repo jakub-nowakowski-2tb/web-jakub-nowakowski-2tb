@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(238, 239, 172);
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label {
+    display: block;
+    margin-top: 20px;
+}
+input[type="text"], select {
+    width: 100%;
+    padding: 5px;
+}
+input[type="submit"] {
+    margin-top: 20px;
+}
+.gender-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-align: center;
+    font-size: 18px;
+    color: brown;
+}
+p {
+    font-size: 18px;
+    text-align: center;
+}
+.p {
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+}
+button {
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: rgb(239, 210, 173);
+    border-color: 2px solid red;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 10px black;
+}
+button:active {
+    transform: scale(0.96)
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 80%;
+    }
+    img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    form {
+        width: 75%;
+    }
+    img {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    form {
+        width: 60%;
+    }
+    img {
+        width: 60%;
+    }
+}

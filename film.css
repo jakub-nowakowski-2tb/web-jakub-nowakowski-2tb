@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(238, 239, 172);
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 18px;
+    color: brown;
+    text-align: center;
+}
+
+button {
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: rgb(239, 210, 173);
+    border-color: 2px solid red;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 10px black;
+    width: 100px;
+}
+
+button:active {
+    transform: scale(0.96)
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 60%;
+    }
+}

@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(238, 239, 172);
+}
+
+a {
+  font-size: 18px;
+  color: brown;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+.column {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 40px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+button {
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 6px;
+  background: rgb(239, 210, 173);
+  border-color: 2px solid red;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 10px black;
+}
+
+button:active {
+  transform: scale(0.96)
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+}
+
+a img {
+  width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  a img {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  a img {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .column {
+    flex: 25%;
+    max-width: 25%;
+  }
+  a img {
+    width: 100%;
+  }
+}

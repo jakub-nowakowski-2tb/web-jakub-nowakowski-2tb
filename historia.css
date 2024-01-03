@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(238, 239, 172);
+    font-size: 20px;
+}
+
+.p {
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    font-weight: bold;
+}
+
+.text1 {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    border-style: dotted;
+}
+
+button {
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: rgb(239, 210, 173);
+    border-color: 2px solid red;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 10px black;
+}
+
+button:active {
+    transform: scale(0.96)
+}
+
+.menu1 {
+    text-align: center;
+}
+
+a {
+    font-size: 18px;
+    color: brown;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .p {
+        font-size: 30px;
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+
+    nav a {
+        margin-right: 10px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    body {
+        font-size: 19px;
+    }
+
+    .p {
+        font-size: 40px;
+    }
+
+    header, footer {
+        padding: 20px;
+    }
+
+    nav a {
+        margin-right: 15px;
+    }
+
+    a {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+
+    .p {
+        font-size: 50px;
+    }
+
+    header, footer {
+        padding: 25px;
+    }
+
+    nav a {
+        margin-right: 20px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+}
