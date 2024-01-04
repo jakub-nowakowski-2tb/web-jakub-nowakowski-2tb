@@ -15,13 +15,13 @@ header {
 }
 
 li {
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .cont2 {
   height: 85vh;
   background-color: rgb(232, 200, 159);
-  width: 15%;
+  width: 15%; 
   font-size: 23px;
   float: left;
   display: row;
@@ -88,6 +88,10 @@ li {
   font-size: 27px;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 600px) {
   h1,
   h2,
@@ -95,6 +99,32 @@ li {
   a {
     font-size: 16px;
   }
+
+  .logos {
+    padding-top: 0.25rem;
+  
+    }
+  
+    .cont2 {
+      width: 50%;
+      height: 35vh;
+      float:inline-start;
+      vertical-align: middle;
+  
+    }
+  
+    .cont3 {
+      width: 100%;
+      height: 85vh;
+    }
+    
+    .cont5 {
+      font-size: 18px;
+      float:inline-start;
+      height: 35vh;
+      width: 50%;
+  
+    }
 
   .cont2,
   .cont5 {
@@ -126,10 +156,30 @@ li {
   a {
     font-size: 18px;
   }
+  
 
-  .cont2,
+  .logos {
+  padding-top: 0.25rem;
+
+  }
+
+  .cont2 {
+    width: 100%;
+    height: 35vh;
+    float:inline-start;
+    vertical-align: middle;
+
+  }
+
+  .cont3 {
+    width: 85%;
+    height: 85vh;
+  }
+  
   .cont5 {
     font-size: 18px;
+    float:inline-start;
+
   }
 
   .obraz {
